@@ -1,7 +1,7 @@
 import './HomePage.css'
 import '../components/Header'
 import { Header } from '../components/Header';
-import { products } from '../../../starting-code/data/products'
+import { products } from '../../starting-code/data/products'
 
 
 export function HomePage(){
