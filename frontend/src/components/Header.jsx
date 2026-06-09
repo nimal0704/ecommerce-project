@@ -1,11 +1,11 @@
 import { Link } from 'react-router'; //<link> = go to another page without reloading.
 import './header.css'
 
-export function Header({cart}){
+export function Header({ cart }){
   let totalQuantity = 0;
 
-  cart.forEach((i) => {
-    totalQuantity += i.quantity;
+  cart.forEach((cartItem) => {
+    totalQuantity += cartItem.quantity;
   });
   return(
     <>
