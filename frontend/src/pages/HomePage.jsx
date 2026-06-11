@@ -17,7 +17,7 @@ export function HomePage({ cart }){
         setProducts(response.data);
       });
   },[]);
-
+ 
 
   return(
     <>
@@ -48,7 +48,7 @@ export function HomePage({ cart }){
                 </div>
 
                 <div className="product-price">
-                  {formatMoney(products.priceCents)}
+                  {formatMoney(product.priceCents)}
                 </div>
 
                 <div className="product-quantity-container">
