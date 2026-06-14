@@ -130,7 +130,7 @@ export function CheckoutPage({ cart }){
             </div>
 
             {paymentSummary && (
-              <>
+               <>
                   <div className="payment-summary-row">
               <div>Items ({paymentSummary.totalItems}):</div>
               <div className="payment-summary-money">{formatMoney(paymentSummary.productCostCents)}</div>
@@ -161,6 +161,8 @@ export function CheckoutPage({ cart }){
             </button>
               </>
             )}
+             
+          
 
             
         </div>
